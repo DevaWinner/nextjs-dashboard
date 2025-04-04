@@ -1,8 +1,11 @@
-import { Inter, Lusitana } from "next/font/google";
+// Created this file to import the Inter font from Google Fonts and export it as a variable to be used in the app.
+import { Inter, Lusitana } from 'next/font/google';
 
-export const inter = Inter({ subsets: ["latin"] });
+// Primary font
+export const inter = Inter({ subsets: ['latin'] });
 
+// Secondary font
 export const lusitana = Lusitana({
-	weight: ["400", "700"],
-	subsets: ["latin"],
+  weight: ['400', '700'], // Specify the font weights
+  subsets: ['latin'],
 });
